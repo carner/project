@@ -1,0 +1,27 @@
+/* 代码整理：懒人之家  www.lanrenzhijia.com */
+.galleryContainer {
+	width: 1024px;
+}
+.galleryImage {
+	background-color:black;
+	width:325px;
+	height:260px;
+	overflow:hidden;
+	margin:5px;
+	float:left;
+}
+.info {
+	margin-left:10px;
+	font-family:arial;
+	padding:3px;
+}
+.info h2 {
+	color:gray;
+}
+.info p {
+	color:white
+}
+.clear {
+	clear:both;
+	margin-top:10px;
+}

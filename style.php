@@ -1,6 +1,20 @@
 <html>
 <head>
-	
+	<style>
+	/*代码框*/
+		.dp-highlighter
+		{
+		  font-family: Monaco, DejaVu Sans Mono, Bitstream Vera Sans Mono, Consolas, Courier New, monospace;
+		  font-size: 12px;
+		  background-color: transparent;
+		  width: 97%;
+		  overflow: auto;
+		  margin-left: 9px;
+		  padding: 1px; /* adds a little border on top when controls are hidden */
+		  word-break: break-all;
+		  word-wrap: break-word;
+		}
+	</style>
 </head>
 <body>
 	<!电影演员表效果!>
@@ -16,6 +30,11 @@
 				</td> 
 			</tr> 
 		</table> 
+		<li class = "dp-highlighter" width=240> 
+						网站建设单位：国瑞公司<br><br> 
+						网页制作：张 庆<br><br> 
+						时 间:二○○○年五月二十二日  
+		<li>
 	</div>
 </body>
 </html>
