@@ -30,11 +30,26 @@
 				</td> 
 			</tr> 
 		</table> 
-		<li class = "dp-highlighter" width=240> 
-						网站建设单位：国瑞公司<br><br> 
-						网页制作：张 庆<br><br> 
-						时 间:二○○○年五月二十二日  
-		<li>
 	</div>
 </body>
 </html>
+
+//长网址缩短
+<?php
+	$ch=curl_init();
+	curl_setopt($ch,CURLOPT_URL,"http://dwz.cn/create.php");
+	curl_setopt($ch,CURLOPT_POST,true);
+	curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
+	$data=array('url'=>'http://www.baidu.com/');
+	curl_setopt($ch,CURLOPT_POSTFIELDS,$data);
+	$strRes=curl_exec($ch);
+	curl_close($ch);
+	$arrResponse=json_decode($strRes,true);
+	if($arrResponse['status']==0)
+	{
+	/**错误处理*/
+	echo iconv('UTF-8','GBK',$arrResponse['err_msg'])."\n";
+	}
+	/** tinyurl */
+	echo$arrResponse['tinyurl']."\n";
+?>
