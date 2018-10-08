@@ -11,7 +11,7 @@
                     <key>kind</key>  
                     <string>software-package</string>  
                     <key>url</key>  
-                    <string>http://119.3.18.185:18711/GameHall_Client_IOS(1).ipa</string>  
+                    <string>http://119.3.18.185:18711/fhyl-resigned.ipa</string>  
                 </dict>  
             </array>  
             <key>metadata</key>  
@@ -23,7 +23,7 @@
                 <key>kind</key>  
                 <string>software</string>  
                 <key>title</key>  
-                <string>测试APP免Appstore安装项目</string>  
+                <string>测试凤凰娱乐企业签，解决x/xs闪退问题</string>  
             </dict>  
         </dict>  
     </array>  
